@@ -1,0 +1,118 @@
+.navLinks {
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 24px;
+  font-family: "Raleway";
+}
+
+.navLinks:hover {
+  text-decoration: underline;
+}
+
+.tel {
+  background-color: #9f0908;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 24px;
+  font-family: "Raleway";
+}
+.tel:hover {
+  text-decoration: none;
+  background-color: #b31010;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerContainer {
+  padding: 112px 160px;
+  margin-bottom: 120px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.howToOrderIcons {
+  height: 120px;
+}
+
+.howToOrderContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 120px;
+}
+
+.howToOrderText {
+  font-family: "Economica";
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.howToOrderElement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.ourMenuSection {
+  background-image: url("./assets/imgs/ourMenu_bg.jpg");
+  padding: 120px 0;
+}
+
+.OurMenuElement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-bottom: 56px;
+}
+
+.OurMenuElementMitt {
+  flex-direction: row-reverse;
+}
+
+.imgOurMenu {
+  width: 352px;
+  height: 352px;
+}
+
+.findUSTextHeadline {
+  font-size: 24px;
+  font-family: "Raleway";
+  margin-bottom: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footerIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.footer_frame {
+  height: 44px;
+}
+
+.footerIconContainer {
+  display: flex;
+  gap: 30px;
+}
+
+.logoFooter {
+  display: none;
+}
